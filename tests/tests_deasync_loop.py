@@ -4,6 +4,12 @@ from deasync import deasync_loop
 
 
 class DeasyncTests(TestCase):
+    def test_deasync_loop_fails_on_loop_none(self):
+        with self.assertRaises(ValueError):
+            @deasync_loop(loop=None)
+            async def coroutine_with_loop(loop=None):
+                return 42
+
     def test_deasync_loop_passes_loop(self):
         loop_set = None
         loop = new_event_loop()
