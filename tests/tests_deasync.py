@@ -1,5 +1,4 @@
-from asyncio import coroutine, iscoroutinefunction
-from asyncio.events import get_event_loop
+from asyncio import coroutine, iscoroutinefunction, get_event_loop
 from unittest import TestCase
 from deasync import deasync, deasync_loop
 import itertools
