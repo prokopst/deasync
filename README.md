@@ -1,6 +1,6 @@
 # deasync
 
-Deasync provides a decorator called 'deasync' to make async functions/methods synchronous in places where synchronous functions are expected, for example in unittest.TestCase:
+Deasync provides a decorator called `deasync` to make async functions/methods synchronous in places where synchronous functions are expected, for example in `unittest.TestCase`:
 
 ```python
 from asyncio import sleep
