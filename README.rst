@@ -1,6 +1,7 @@
 deasync provides a decorator called `deasync` for Python 3.5 (or higher) to make async functions synchronous in places where only synchronous functions are expected, for example in `unittest.TestCase`:
 
 .. code:: python
+
     from asyncio import sleep
     from unittest import TestCase
     from deasync import deasync

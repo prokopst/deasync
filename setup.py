@@ -12,7 +12,7 @@ with open(path.join(here, 'README.rst')) as file:
 
 setup(
     name='deasync',
-    version='1.0.0',
+    version='1.0.1',
     description="deasync decorator to make async functions/methods synchronous.",
     long_description=long_description,
     url='https://github.com/prokopst/deasync',
